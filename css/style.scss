@@ -26,6 +26,7 @@ section:first-child {
       position: absolute;
       height: 90%;
       max-height: 800px;
+      width: 50%;
       bottom: -1px;
       overflow: hidden;
     }
@@ -70,12 +71,16 @@ section:last-child {
       font-family: "Adobe Garamond Pro", Garamond, Times, serif;
     }
     h1 {
+      margin-top: 60px;
       font-size: 1.8em;
       color: darkorange;
       border-bottom: 1px solid #ccc;
     }
     h2 {
       color: #bbbbbb;
+    }
+    p {
+      max-width: 500px;
     }
   }
 }
