@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* CSS Stylesheet */
+
+html, body {
+  width: 100%;
+  margin: 0;
+}
+
+section {
+  display: block;
+  height: 100%;
+  float: none;
+  clear: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  align-items: center;
+}
+
+section div {
+  display: block;
+  width: 100%;
+  margin: 4% 1%;
+  float: left;
+  clear: both;
+}
+
+@media only screen and (min-width: 789px) {
+  
+  section {
+    display: flex;
+  }
+  
+  section div {
+    display: block;
+    width: 48%;
+    margin: 4% 1%;
+    float: left;
+    clear: none;
+  }
+  
+}
+
+span img {
+  width: 120px;
+  float: left;
+  clear: none;
+}
+
+h1 {
+  font-family: Myriad Pro;
+  font-size: 3em;
+  line-height: 1.2em;
+  font-weight: 600;
+  margin-left: 150px;
+  margin-top: 8px;
+}
+
+p {
+  font-family: Myriad Pro;
+  font-weight: 300;
+  color: #999;
+  font-size: 1.2em;
+  line-height: 1.6em;
+}
+
+div:nth-child(2) img {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
