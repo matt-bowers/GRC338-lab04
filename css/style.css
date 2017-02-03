@@ -1,73 +1,81 @@
-@charset "UTF-8";
 /* CSS Stylesheet */
-
+/* line 4, /Users/mbower01/Desktop/mbower01-lab-04/css/style.scss */
 html, body {
-  width: 100%;
-  margin: 0;
-}
-
-section {
-  display: block;
   height: 100%;
-  float: none;
-  clear: none;
-  margin-left: auto;
-  margin-right: auto;
-  width: 95%;
-  align-items: center;
-}
+  margin: 0; }
 
-section div {
+/* line 9, /Users/mbower01/Desktop/mbower01-lab-04/css/style.scss */
+section:first-child {
   display: block;
+  position: relative;
+  top: 0;
+  left: 0;
   width: 100%;
-  margin: 4% 1%;
-  float: left;
-  clear: both;
-}
-
-@media only screen and (min-width: 789px) {
-  
-  section {
-    display: flex;
-  }
-  
-  section div {
-    display: block;
-    width: 48%;
-    margin: 4% 1%;
-    float: left;
+  height: 80%;
+  background-color: #000; }
+  /* line 17, /Users/mbower01/Desktop/mbower01-lab-04/css/style.scss */
+  section:first-child div {
+    width: 80%;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
     clear: none;
-  }
-  
-}
+    float: none;
+    height: 100%; }
+    /* line 25, /Users/mbower01/Desktop/mbower01-lab-04/css/style.scss */
+    section:first-child div img {
+      position: absolute;
+      height: 90%;
+      max-height: 800px;
+      bottom: -1px;
+      overflow: hidden; }
+    /* line 32, /Users/mbower01/Desktop/mbower01-lab-04/css/style.scss */
+    section:first-child div p {
+      font-family: "Adobe Garamond Pro", Garamond, Times, serif;
+      font-size: 1.4em;
+      color: #ffffff;
+      position: absolute;
+      left: 50%;
+      top: 60%;
+      line-height: 1.6em; }
+      /* line 40, /Users/mbower01/Desktop/mbower01-lab-04/css/style.scss */
+      section:first-child div p span {
+        margin-left: 2em; }
 
-span img {
-  width: 120px;
-  float: left;
-  clear: none;
-}
-
-h1 {
-  font-family: Myriad Pro;
-  font-size: 3em;
-  line-height: 1.2em;
-  font-weight: 600;
-  margin-left: 150px;
-  margin-top: 8px;
-}
-
-p {
-  font-family: Myriad Pro;
-  font-weight: 300;
-  color: #999;
-  font-size: 1.2em;
-  line-height: 1.6em;
-}
-
-div:nth-child(2) img {
+/* line 47, /Users/mbower01/Desktop/mbower01-lab-04/css/style.scss */
+section:last-child {
   display: block;
+  position: relative;
+  top: 0;
+  left: 0;
   width: 100%;
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-}
+  background-color: #fff; }
+  /* line 54, /Users/mbower01/Desktop/mbower01-lab-04/css/style.scss */
+  section:last-child div {
+    width: 80%;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: none;
+    float: none;
+    height: 100%; }
+    /* line 62, /Users/mbower01/Desktop/mbower01-lab-04/css/style.scss */
+    section:last-child div img {
+      position: absolute;
+      height: 90%;
+      max-height: 800px;
+      bottom: -1px;
+      overflow: hidden; }
+    /* line 69, /Users/mbower01/Desktop/mbower01-lab-04/css/style.scss */
+    section:last-child div h1, section:last-child div h2, section:last-child div p, section:last-child div ul, section:last-child div li {
+      font-family: "Adobe Garamond Pro", Garamond, Times, serif; }
+    /* line 72, /Users/mbower01/Desktop/mbower01-lab-04/css/style.scss */
+    section:last-child div h1 {
+      font-size: 1.8em;
+      color: darkorange;
+      border-bottom: 1px solid #ccc; }
+    /* line 77, /Users/mbower01/Desktop/mbower01-lab-04/css/style.scss */
+    section:last-child div h2 {
+      color: #bbbbbb; }
+
+/*# sourceMappingURL=style.css.map */
