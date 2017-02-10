@@ -1,19 +1,20 @@
 /* CSS Stylesheet */
-/* line 4, /Users/mbower01/Desktop/mbower01-lab-04/css/style.scss */
+/* line 4, /Users/Matt/Sites/GRC338/GRC338-lab04/css/style.scss */
 html, body {
   height: 100%;
   margin: 0; }
 
-/* line 9, /Users/mbower01/Desktop/mbower01-lab-04/css/style.scss */
+/* line 9, /Users/Matt/Sites/GRC338/GRC338-lab04/css/style.scss */
 section:first-child {
   display: block;
   position: relative;
   top: 0;
   left: 0;
   width: 100%;
-  height: 80%;
+  height: 60vw;
+  max-height: 80%;
   background-color: #000; }
-  /* line 17, /Users/mbower01/Desktop/mbower01-lab-04/css/style.scss */
+  /* line 18, /Users/Matt/Sites/GRC338/GRC338-lab04/css/style.scss */
   section:first-child div {
     width: 80%;
     max-width: 1100px;
@@ -22,15 +23,15 @@ section:first-child {
     clear: none;
     float: none;
     height: 100%; }
-    /* line 25, /Users/mbower01/Desktop/mbower01-lab-04/css/style.scss */
+    /* line 26, /Users/Matt/Sites/GRC338/GRC338-lab04/css/style.scss */
     section:first-child div img {
       position: absolute;
       height: 90%;
       max-height: 800px;
-      width: 50%;
       bottom: -1px;
-      overflow: hidden; }
-    /* line 33, /Users/mbower01/Desktop/mbower01-lab-04/css/style.scss */
+      overflow: hidden;
+      right: 50%; }
+    /* line 34, /Users/Matt/Sites/GRC338/GRC338-lab04/css/style.scss */
     section:first-child div p {
       font-family: "Adobe Garamond Pro", Garamond, Times, serif;
       font-size: 1.4em;
@@ -39,11 +40,16 @@ section:first-child {
       left: 50%;
       top: 60%;
       line-height: 1.6em; }
-      /* line 41, /Users/mbower01/Desktop/mbower01-lab-04/css/style.scss */
+      /* line 42, /Users/Matt/Sites/GRC338/GRC338-lab04/css/style.scss */
       section:first-child div p span {
         margin-left: 2em; }
+      @media screen and (max-width: 600px) {
+        /* line 34, /Users/Matt/Sites/GRC338/GRC338-lab04/css/style.scss */
+        section:first-child div p {
+          font-size: 0.8em;
+          top: 50%; } }
 
-/* line 48, /Users/mbower01/Desktop/mbower01-lab-04/css/style.scss */
+/* line 53, /Users/Matt/Sites/GRC338/GRC338-lab04/css/style.scss */
 section:last-child {
   display: block;
   position: relative;
@@ -51,7 +57,7 @@ section:last-child {
   left: 0;
   width: 100%;
   background-color: #fff; }
-  /* line 55, /Users/mbower01/Desktop/mbower01-lab-04/css/style.scss */
+  /* line 60, /Users/Matt/Sites/GRC338/GRC338-lab04/css/style.scss */
   section:last-child div {
     width: 80%;
     max-width: 1100px;
@@ -60,26 +66,27 @@ section:last-child {
     clear: none;
     float: none;
     height: 100%; }
-    /* line 63, /Users/mbower01/Desktop/mbower01-lab-04/css/style.scss */
+    /* line 68, /Users/Matt/Sites/GRC338/GRC338-lab04/css/style.scss */
     section:last-child div img {
       position: absolute;
       height: 90%;
       max-height: 800px;
       bottom: -1px;
       overflow: hidden; }
-    /* line 70, /Users/mbower01/Desktop/mbower01-lab-04/css/style.scss */
+    /* line 75, /Users/Matt/Sites/GRC338/GRC338-lab04/css/style.scss */
     section:last-child div h1, section:last-child div h2, section:last-child div p, section:last-child div ul, section:last-child div li {
       font-family: "Adobe Garamond Pro", Garamond, Times, serif; }
-    /* line 73, /Users/mbower01/Desktop/mbower01-lab-04/css/style.scss */
+    /* line 78, /Users/Matt/Sites/GRC338/GRC338-lab04/css/style.scss */
     section:last-child div h1 {
       margin-top: 60px;
       font-size: 1.8em;
       color: darkorange;
       border-bottom: 1px solid #ccc; }
-    /* line 79, /Users/mbower01/Desktop/mbower01-lab-04/css/style.scss */
+    /* line 84, /Users/Matt/Sites/GRC338/GRC338-lab04/css/style.scss */
     section:last-child div h2 {
-      color: #bbbbbb; }
-    /* line 82, /Users/mbower01/Desktop/mbower01-lab-04/css/style.scss */
+      color: #bbbbbb;
+      padding-left: 20%; }
+    /* line 88, /Users/Matt/Sites/GRC338/GRC338-lab04/css/style.scss */
     section:last-child div p {
       max-width: 500px; }
 
