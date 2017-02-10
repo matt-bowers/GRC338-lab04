@@ -67,10 +67,8 @@ section:last-child {
     height: 100%;
     img {
       position: absolute;
-      height: 90%;
-      max-height: 800px;
-      bottom: -1px;
-      overflow: hidden;
+      right: 10%;
+      width: 100px;
     }
     h1, h2, p, ul, li {
       font-family: "Adobe Garamond Pro", Garamond, Times, serif;
